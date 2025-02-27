@@ -172,7 +172,7 @@ export const projects: Project[] = [
     id: "15",
     title: "Calendar App",
     description: "An online calendar where you can share your schedule.",
-    image: "/public/15-calendarapp.PNG",
+    image: "/15-calendarapp.PNG",
     technologies: [
       {
         id: "react",
@@ -208,7 +208,7 @@ export const projects: Project[] = [
     title: "Journal App",
     description:
       "E-note where you can write everything that happends in your day",
-    image: "/public/16-journal-app.PNG",
+    image: "/16-journal-app.PNG",
     technologies: [
       {
         id: "react",
@@ -379,7 +379,7 @@ export const projects: Project[] = [
     id: "13",
     title: "Snake Game",
     description: "Clasic Snake game built with vanilla javascript",
-    image: "/public/13-snakegame.PNG",
+    image: "/13-snakegame.PNG",
     technologies: [
       {
         id: "html-css-js",
@@ -459,7 +459,7 @@ export const projects: Project[] = [
     id: "14",
     title: "Shopping Cart",
     description: "Store that uses extarnal api to show product.",
-    image: "/public/14-shopping-cart.PNG",
+    image: "/14-shopping-cart.PNG",
     technologies: [
       {
         id: "html-css-js",
