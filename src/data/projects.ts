@@ -207,7 +207,7 @@ export const projects: Project[] = [
     id: "16",
     title: "Journal App",
     description:
-      "E-book where you can write everything that happends in your day",
+      "E-note where you can write everything that happends in your day",
     image: "/public/16-journal-app.PNG",
     technologies: [
       {
@@ -227,7 +227,7 @@ export const projects: Project[] = [
       },
     ],
     category: "social",
-    link: "https://note-img.netlify.app/auth/login",
+    link: "https://note-img.netlify.app/",
   },
   {
     id: "1",

@@ -81,7 +81,7 @@ export default function Landing() {
               <BlurFade delay={0.4}>
                 <p className="text-base">
                   <span className="font-semibold">
-                    I've deployed 15+ projects so far, always striving to exceed
+                    I've deployed 20+ projects so far, always striving to exceed
                     expectations and deliver top-quality results
                   </span>
                   . My main tech stack includes React.js, TypeScript, Node.js,
@@ -148,7 +148,7 @@ export default function Landing() {
             </BlurFade>
             <BlurFade delay={0.4}>
               <p className="text-base text-center">
-                I have deployed over 15 projects and always strive to exceed
+                I have deployed over 20 projects and always strive to exceed
                 expectations with my work. I work with React.js, TypeScript,
                 Node.js, MongoDB, and more. I am passionate about building
                 scalable, optimized applications with seamless user experiences.
