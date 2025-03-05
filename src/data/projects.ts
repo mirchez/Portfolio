@@ -91,7 +91,7 @@ export const projects: Project[] = [
       },
     ],
     category: "fullstack",
-    link: "https://devtree-realjoaquin.netlify.app/",
+    link: "https://devtree-miguel-miranda.netlify.app",
   },
   {
     id: "2",
