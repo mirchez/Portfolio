@@ -408,6 +408,32 @@ export const projects: Project[] = [
     link: "https://phenomenal-dolphin-3cfaaf.netlify.app/",
   },
   {
+    id: "17",
+    title: "GuitarLA",
+    description:
+      "GuitarLA is the place where you will find and buy premium and high quality guitars",
+    image: "/17-GuiatarLA.PNG",
+    technologies: [
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+      {
+        id: "javascript",
+        name: "JavaScript",
+        color: { bg: "#FAF3DD", text: "#C29343" },
+      },
+      {
+        id: "react",
+        name: "React.js",
+        color: { bg: "#E9F3F7", text: "#487CA5" },
+      },
+    ],
+    category: "ecommerce",
+    link: "https://lively-lollipop-c6c1d4.netlify.app",
+  },
+  {
     id: "13",
     title: "Snake Game",
     description: "Clasic Snake game built with vanilla javascript",
