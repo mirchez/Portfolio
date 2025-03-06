@@ -94,6 +94,67 @@ export const projects: Project[] = [
     link: "https://devtree-miguel-miranda.netlify.app",
   },
   {
+    id: "15",
+    title: "Calendar App",
+    description: "An online calendar where you can share your schedule.",
+    image: "/15-calendarapp.PNG",
+    technologies: [
+      {
+        id: "react",
+        name: "React.js",
+        color: { bg: "#E9F3F7", text: "#487CA5" },
+      },
+      {
+        id: "node",
+        name: "Node.js",
+        color: { bg: "#EEF3ED", text: "#548164" },
+      },
+      {
+        id: "rest-api",
+        name: "RESTful APIs",
+        color: { bg: "#F3EEEE", text: "#976D57" },
+      },
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+      {
+        id: "javascript",
+        name: "JavaScript",
+        color: { bg: "#FAF3DD", text: "#C29343" },
+      },
+    ],
+    category: "social",
+    link: "https://calendar-backend-production-f4fe.up.railway.app/auth/login",
+  },
+  {
+    id: "16",
+    title: "Journal App",
+    description:
+      "E-note where you can write everything that happends in your day",
+    image: "/16-journal-app.PNG",
+    technologies: [
+      {
+        id: "react",
+        name: "React.js",
+        color: { bg: "#E9F3F7", text: "#487CA5" },
+      },
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+      {
+        id: "javascript",
+        name: "JavaScript",
+        color: { bg: "#FAF3DD", text: "#C29343" },
+      },
+    ],
+    category: "social",
+    link: "https://note-img.netlify.app/",
+  },
+  {
     id: "2",
     title: "Calories Counter",
     description: "Balances calories consumed and burned.",
@@ -167,67 +228,6 @@ export const projects: Project[] = [
     ],
     category: "external-api",
     link: "https://sparkly-pegasus-5d5f8d.netlify.app/",
-  },
-  {
-    id: "15",
-    title: "Calendar App",
-    description: "An online calendar where you can share your schedule.",
-    image: "/15-calendarapp.PNG",
-    technologies: [
-      {
-        id: "react",
-        name: "React.js",
-        color: { bg: "#E9F3F7", text: "#487CA5" },
-      },
-      {
-        id: "node",
-        name: "Node.js",
-        color: { bg: "#EEF3ED", text: "#548164" },
-      },
-      {
-        id: "rest-api",
-        name: "RESTful APIs",
-        color: { bg: "#F3EEEE", text: "#976D57" },
-      },
-      {
-        id: "html-css-js",
-        name: "HTML/CSS/JS",
-        color: { bg: "#FAECEC", text: "#C4554D" },
-      },
-      {
-        id: "javascript",
-        name: "JavaScript",
-        color: { bg: "#FAF3DD", text: "#C29343" },
-      },
-    ],
-    category: "social",
-    link: "https://calendar-backend-production-f4fe.up.railway.app/auth/login",
-  },
-  {
-    id: "16",
-    title: "Journal App",
-    description:
-      "E-note where you can write everything that happends in your day",
-    image: "/16-journal-app.PNG",
-    technologies: [
-      {
-        id: "react",
-        name: "React.js",
-        color: { bg: "#E9F3F7", text: "#487CA5" },
-      },
-      {
-        id: "html-css-js",
-        name: "HTML/CSS/JS",
-        color: { bg: "#FAECEC", text: "#C4554D" },
-      },
-      {
-        id: "javascript",
-        name: "JavaScript",
-        color: { bg: "#FAF3DD", text: "#C29343" },
-      },
-    ],
-    category: "social",
-    link: "https://note-img.netlify.app/",
   },
   {
     id: "1",
