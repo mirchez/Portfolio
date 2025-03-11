@@ -249,7 +249,7 @@ export const projects: Project[] = [
       },
     ],
     category: "external-api",
-    link: "https://spa-heroesv1.netlify.app/marvel",
+    link: "https://spa-heroesv1.netlify.app",
   },
   {
     id: "2",
