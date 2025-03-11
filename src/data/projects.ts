@@ -262,6 +262,41 @@ export const projects: Project[] = [
     link: "https://sparkly-pegasus-5d5f8d.netlify.app/",
   },
   {
+    id: "18",
+    title: "Gif Expert",
+    description: "Find Whatever gif you want in one site.",
+    image: "/18-gif-expert.PNG",
+    technologies: [
+      {
+        id: "react",
+        name: "React.js",
+        color: { bg: "#E9F3F7", text: "#487CA5" },
+      },
+      {
+        id: "SPA",
+        name: "Single Page Aplication",
+        color: { bg: "#C4554D", text: "#F3EEEE" },
+      },
+      {
+        id: "rest-api",
+        name: "RESTful APIs",
+        color: { bg: "#F3EEEE", text: "#976D57" },
+      },
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+      {
+        id: "javascript",
+        name: "JavaScript",
+        color: { bg: "#FAF3DD", text: "#C29343" },
+      },
+    ],
+    category: "external-api",
+    link: "https://sparkly-pithivier-e7d43a.netlify.app/",
+  },
+  {
     id: "1",
     title: "Tip Calculator",
     description: "Calculates the tip based on the total bill.",
