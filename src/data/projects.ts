@@ -257,46 +257,6 @@ export const projects: Project[] = [
     link: "https://sage-pasca-360189.netlify.app/",
   },
   {
-    id: "5",
-    title: "Weather App",
-    description: "Check the weather in any city in real time.",
-    image: "/05-clima.PNG",
-    technologies: [
-      {
-        id: "react",
-        name: "React.js",
-        color: { bg: "#E9F3F7", text: "#487CA5" },
-      },
-      {
-        id: "typescript",
-        name: "TypeScript",
-        color: { bg: "#F6F3F8", text: "#8A67AB" },
-      },
-      {
-        id: "tailwind",
-        name: "Tailwind CSS",
-        color: { bg: "#F9F2F5", text: "#B35488" },
-      },
-      {
-        id: "rest-api",
-        name: "RESTful APIs",
-        color: { bg: "#F3EEEE", text: "#976D57" },
-      },
-      {
-        id: "html-css-js",
-        name: "HTML/CSS/JS",
-        color: { bg: "#FAECEC", text: "#C4554D" },
-      },
-      {
-        id: "javascript",
-        name: "JavaScript",
-        color: { bg: "#FAF3DD", text: "#C29343" },
-      },
-    ],
-    category: "external-api",
-    link: "https://sparkly-pegasus-5d5f8d.netlify.app/",
-  },
-  {
     id: "1",
     title: "Tip Calculator",
     description: "Calculates the tip based on the total bill.",
@@ -365,6 +325,46 @@ export const projects: Project[] = [
     ],
     category: "finance",
     link: "https://delicate-figolla-d3716c.netlify.app/",
+  },
+  {
+    id: "5",
+    title: "Weather App",
+    description: "Check the weather in any city in real time.",
+    image: "/05-clima.PNG",
+    technologies: [
+      {
+        id: "react",
+        name: "React.js",
+        color: { bg: "#E9F3F7", text: "#487CA5" },
+      },
+      {
+        id: "typescript",
+        name: "TypeScript",
+        color: { bg: "#F6F3F8", text: "#8A67AB" },
+      },
+      {
+        id: "tailwind",
+        name: "Tailwind CSS",
+        color: { bg: "#F9F2F5", text: "#B35488" },
+      },
+      {
+        id: "rest-api",
+        name: "RESTful APIs",
+        color: { bg: "#F3EEEE", text: "#976D57" },
+      },
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+      {
+        id: "javascript",
+        name: "JavaScript",
+        color: { bg: "#FAF3DD", text: "#C29343" },
+      },
+    ],
+    category: "external-api",
+    link: "https://sparkly-pegasus-5d5f8d.netlify.app/",
   },
   {
     id: "4",
