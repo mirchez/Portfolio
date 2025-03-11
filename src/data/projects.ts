@@ -222,7 +222,7 @@ export const projects: Project[] = [
     link: "https://sparkly-pithivier-e7d43a.netlify.app/",
   },
   {
-    id: "19",
+    id: "20",
     title: "Heroes SPA",
     description: "Shows especific detalis about DC or Marvel heroes",
     image: "/20-heroes-spa.PNG",
