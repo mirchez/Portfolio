@@ -37,5 +37,4 @@ export const CATEGORIES = [
     icon: "🛠️",
     mobileIcon: "ri-settings-5-fill",
   },
-  { id: "SPA", name: "Frontend", icon: "🖥️", mobileIcon: "ri-compass-3-fill" },
 ] as const;

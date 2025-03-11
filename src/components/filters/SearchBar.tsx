@@ -1,7 +1,5 @@
-
-import { Input } from '@/components/ui/input';
-import { useProjectStore } from '@/store/useProjectStore';
-import { Link } from 'react-router-dom';
+import { Input } from "@/components/ui/input";
+import { useProjectStore } from "@/store/useProjectStore";
 
 export const SearchBar = () => {
   const { filters, setSearchQuery, clearFilters } = useProjectStore();
@@ -18,12 +16,9 @@ export const SearchBar = () => {
       <button
         className="items-center gap-2 px-4 py-2 border border-gray-200 text-gray-800 rounded-lg hover:bg-gray-100 transition"
         onClick={clearFilters}
-        >
-        
+      >
         Clear filters
       </button>
-      
-
     </div>
   );
 };
