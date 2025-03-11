@@ -489,6 +489,41 @@ export const projects: Project[] = [
     link: "https://subtle-cucurucho-2d4cea.netlify.app/",
   },
   {
+    id: "14",
+    title: "Shopping Cart",
+    description: "Store that uses extarnal api to show product.",
+    image: "/14-shopping-cart.PNG",
+    technologies: [
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+      {
+        id: "rest-api",
+        name: "external-api",
+        color: { bg: "#F3EEEE", text: "#976D57" },
+      },
+    ],
+    category: "ecommerce",
+    link: "https://zesty-rugelach-d8bd22.netlify.app/",
+  },
+  {
+    id: "19",
+    title: "Portfolio example",
+    description: "Simple Portfolio example create with html and css.",
+    image: "/19-portfolio.PNG",
+    technologies: [
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+    ],
+    category: "productivity",
+    link: "https://portfolio-example-v1.netlify.app/",
+  },
+  {
     id: "7",
     title: "Furniture Store",
     description: "Online furniture store with an attractive design.",
@@ -547,26 +582,6 @@ export const projects: Project[] = [
     ],
     category: "productivity",
     link: "https://nucleus-delta.vercel.app/",
-  },
-  {
-    id: "14",
-    title: "Shopping Cart",
-    description: "Store that uses extarnal api to show product.",
-    image: "/14-shopping-cart.PNG",
-    technologies: [
-      {
-        id: "html-css-js",
-        name: "HTML/CSS/JS",
-        color: { bg: "#FAECEC", text: "#C4554D" },
-      },
-      {
-        id: "rest-api",
-        name: "external-api",
-        color: { bg: "#F3EEEE", text: "#976D57" },
-      },
-    ],
-    category: "ecommerce",
-    link: "https://zesty-rugelach-d8bd22.netlify.app/",
   },
   {
     id: "11",
