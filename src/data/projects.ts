@@ -222,6 +222,36 @@ export const projects: Project[] = [
     link: "https://sparkly-pithivier-e7d43a.netlify.app/",
   },
   {
+    id: "19",
+    title: "Heroes SPA",
+    description: "Shows especific detalis about DC or Marvel heroes",
+    image: "/20-heroes-spa.PNG",
+    technologies: [
+      {
+        id: "react",
+        name: "React.js",
+        color: { bg: "#E9F3F7", text: "#487CA5" },
+      },
+      {
+        id: "rest-api",
+        name: "RESTful APIs",
+        color: { bg: "#F3EEEE", text: "#976D57" },
+      },
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+      {
+        id: "javascript",
+        name: "JavaScript",
+        color: { bg: "#FAF3DD", text: "#C29343" },
+      },
+    ],
+    category: "external-api",
+    link: "https://spa-heroesv1.netlify.app/marvel",
+  },
+  {
     id: "2",
     title: "Calories Counter",
     description: "Balances calories consumed and burned.",
