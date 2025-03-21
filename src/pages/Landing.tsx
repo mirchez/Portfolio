@@ -2,6 +2,7 @@ import { LandingButton } from "@/components/buttons/LandingButton";
 import { LogosDesktop, LogosMobile } from "@/components/LogoWall";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import FadeContent from "@/components/ui/fadeContent";
+import { Particles } from "@/components/ui/particles";
 
 export default function Landing() {
   return (
@@ -10,6 +11,13 @@ export default function Landing() {
       <div className="flex flex-col md:flex-row items-center h-screen max-w-screen-2xl mx-auto">
         {/* Sección para escritorio (solo se muestra en md y superiores) */}
         <div className="hidden md:flex flex-row items-center w-full">
+          <Particles
+            className="absolute inset-0"
+            quantity={100}
+            ease={80}
+            color="#ffffff"
+            refresh
+          />
           {/* Logos para Desktop */}
           <div className="flex items-center h-screen">
             <BlurFade delay={0.8}>
