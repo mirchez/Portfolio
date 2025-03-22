@@ -184,7 +184,7 @@ export const projects: Project[] = [
     ],
     category: "fullstack",
     link: "https://forever-admin-dun.vercel.app",
-  },  
+  },
   {
     id: "12",
     title: "DevTree Clone",
@@ -382,11 +382,6 @@ export const projects: Project[] = [
         color: { bg: "#E9F3F7", text: "#487CA5" },
       },
       {
-        id: "SPA",
-        name: "Single Page Aplication",
-        color: { bg: "#C4554D", text: "#F3EEEE" },
-      },
-      {
         id: "rest-api",
         name: "RESTful APIs",
         color: { bg: "#F3EEEE", text: "#976D57" },
@@ -541,46 +536,6 @@ export const projects: Project[] = [
     link: "https://delicate-figolla-d3716c.netlify.app/",
   },
   {
-    id: "5",
-    title: "Weather App",
-    description: "Check the weather in any city in real time.",
-    image: "/05-clima.PNG",
-    technologies: [
-      {
-        id: "react",
-        name: "React.js",
-        color: { bg: "#E9F3F7", text: "#487CA5" },
-      },
-      {
-        id: "typescript",
-        name: "TypeScript",
-        color: { bg: "#F6F3F8", text: "#8A67AB" },
-      },
-      {
-        id: "tailwind",
-        name: "Tailwind CSS",
-        color: { bg: "#F9F2F5", text: "#B35488" },
-      },
-      {
-        id: "rest-api",
-        name: "RESTful APIs",
-        color: { bg: "#F3EEEE", text: "#976D57" },
-      },
-      {
-        id: "html-css-js",
-        name: "HTML/CSS/JS",
-        color: { bg: "#FAECEC", text: "#C4554D" },
-      },
-      {
-        id: "javascript",
-        name: "JavaScript",
-        color: { bg: "#FAF3DD", text: "#C29343" },
-      },
-    ],
-    category: "external-api",
-    link: "https://sparkly-pegasus-5d5f8d.netlify.app/",
-  },
-  {
     id: "4",
     title: "Veterinary Patient Tracker",
     description: "Monitors the status of patients in a veterinary clinic.",
@@ -657,6 +612,46 @@ export const projects: Project[] = [
     link: "https://phenomenal-dolphin-3cfaaf.netlify.app/",
   },
   {
+    id: "5",
+    title: "Weather App",
+    description: "Check the weather in any city in real time.",
+    image: "/05-clima.PNG",
+    technologies: [
+      {
+        id: "react",
+        name: "React.js",
+        color: { bg: "#E9F3F7", text: "#487CA5" },
+      },
+      {
+        id: "typescript",
+        name: "TypeScript",
+        color: { bg: "#F6F3F8", text: "#8A67AB" },
+      },
+      {
+        id: "tailwind",
+        name: "Tailwind CSS",
+        color: { bg: "#F9F2F5", text: "#B35488" },
+      },
+      {
+        id: "rest-api",
+        name: "RESTful APIs",
+        color: { bg: "#F3EEEE", text: "#976D57" },
+      },
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+      {
+        id: "javascript",
+        name: "JavaScript",
+        color: { bg: "#FAF3DD", text: "#C29343" },
+      },
+    ],
+    category: "external-api",
+    link: "https://sparkly-pegasus-5d5f8d.netlify.app/",
+  },
+  {
     id: "17",
     title: "GuitarLA",
     description:
@@ -723,10 +718,10 @@ export const projects: Project[] = [
     link: "https://zesty-rugelach-d8bd22.netlify.app/",
   },
   {
-    id: "19",
-    title: "Portfolio example",
-    description: "Simple Portfolio example create with html and css.",
-    image: "/19-portfolio.PNG",
+    id: "10",
+    title: "Finance App Landing",
+    description: "Landing page for a finance application.",
+    image: "/10-finanzas.png",
     technologies: [
       {
         id: "html-css-js",
@@ -735,13 +730,13 @@ export const projects: Project[] = [
       },
     ],
     category: "productivity",
-    link: "https://portfolio-example-v1.netlify.app/",
+    link: "https://nucleus-delta.vercel.app/",
   },
   {
-    id: "7",
-    title: "Furniture Store",
-    description: "Online furniture store with an attractive design.",
-    image: "/07-muebles.png",
+    id: "11",
+    title: "Café Website",
+    description: "Website for a café with a friendly design.",
+    image: "/11-cafeteria.png",
     technologies: [
       {
         id: "html-css-js",
@@ -749,8 +744,8 @@ export const projects: Project[] = [
         color: { bg: "#FAECEC", text: "#C4554D" },
       },
     ],
-    category: "ecommerce",
-    link: "https://housestore-page.vercel.app/tienda.html",
+    category: "social",
+    link: "https://cafeteria-fawn.vercel.app/",
   },
   {
     id: "8",
@@ -783,10 +778,25 @@ export const projects: Project[] = [
     link: "https://arquitectura-bosque-ruby.vercel.app/",
   },
   {
-    id: "10",
-    title: "Finance App Landing",
-    description: "Landing page for a finance application.",
-    image: "/10-finanzas.png",
+    id: "7",
+    title: "Furniture Store",
+    description: "Online furniture store with an attractive design.",
+    image: "/07-muebles.png",
+    technologies: [
+      {
+        id: "html-css-js",
+        name: "HTML/CSS/JS",
+        color: { bg: "#FAECEC", text: "#C4554D" },
+      },
+    ],
+    category: "ecommerce",
+    link: "https://housestore-page.vercel.app/tienda.html",
+  },
+  {
+    id: "20",
+    title: "Portfolio example",
+    description: "Simple Portfolio example create with html and css.",
+    image: "/19-portfolio.PNG",
     technologies: [
       {
         id: "html-css-js",
@@ -795,21 +805,6 @@ export const projects: Project[] = [
       },
     ],
     category: "productivity",
-    link: "https://nucleus-delta.vercel.app/",
-  },
-  {
-    id: "11",
-    title: "Café Website",
-    description: "Website for a café with a friendly design.",
-    image: "/11-cafeteria.png",
-    technologies: [
-      {
-        id: "html-css-js",
-        name: "HTML/CSS/JS",
-        color: { bg: "#FAECEC", text: "#C4554D" },
-      },
-    ],
-    category: "social",
-    link: "https://cafeteria-fawn.vercel.app/",
+    link: "https://portfolio-example-v1.netlify.app/",
   },
 ];

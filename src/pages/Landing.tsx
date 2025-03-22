@@ -10,14 +10,7 @@ export default function Landing() {
       {/* Contenedor principal: en móvil se apila en columna, en escritorio en fila */}
       <div className="flex flex-col md:flex-row items-center h-screen max-w-screen-2xl mx-auto">
         {/* Sección para escritorio (solo se muestra en md y superiores) */}
-        <div className="hidden md:flex flex-row items-center w-full">
-          <Particles
-            className="absolute inset-0"
-            quantity={100}
-            ease={80}
-            color="#ffffff"
-            refresh
-          />
+        <div className="hidden md:flex flex-row items-center w-full relative">
           {/* Logos para Desktop */}
           <div className="flex items-center h-screen">
             <BlurFade delay={0.8}>
@@ -26,6 +19,13 @@ export default function Landing() {
           </div>
 
           {/* Contenido de la sección PC */}
+          <Particles
+            className="absolute inset-0 z-10"
+            quantity={100}
+            ease={80}
+            color="#000f"
+            refresh
+          />
           <div className="w-[672px] mx-auto mb-10 items-center">
             <div className="flex">
               <div>
@@ -106,7 +106,14 @@ export default function Landing() {
         </div>
 
         {/* Sección para móviles (se muestra solo en md:hidden) */}
-        <div className="md:hidden w-full mx-auto mb-4 items-center px-4">
+        <div className="md:hidden w-full mx-auto mb-4 items-center px-4 relative">
+          <Particles
+            className="absolute inset-0 z-10"
+            quantity={100}
+            ease={80}
+            color="#000f"
+            refresh
+          />
           <BlurFade delay={0.1}>
             <h1 className="text-4xl font-black mt-8 text-center">
               Hello, I’m Miguel💻

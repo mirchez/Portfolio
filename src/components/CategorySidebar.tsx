@@ -1,5 +1,5 @@
-import { Menu } from 'lucide-react';
-import { useState } from 'react';
+import { Menu } from "lucide-react";
+import { useState } from "react";
 
 interface Category {
   id: string;
@@ -12,16 +12,18 @@ interface CategorySidebarProps {
 }
 
 const categories: Category[] = [
-  { id: 'all', name: 'Todos los Proyectos', icon: '🎯' },
-  { id: 'ecommerce', name: 'E-commerce', icon: '🛍' },
-  { id: 'productivity', name: 'Productividad', icon: '⚡' },
-  { id: 'finance', name: 'Finanzas', icon: '💰' },
-  { id: 'jobs', name: 'Búsqueda de Empleo', icon: '💼' },
+  { id: "all", name: "Todos los Proyectos", icon: "🎯" },
+  { id: "ecommerce", name: "E-commerce", icon: "🛍" },
+  { id: "productivity", name: "Productividad", icon: "⚡" },
+  { id: "finance", name: "Finanzas", icon: "💰" },
+  { id: "jobs", name: "Búsqueda de Empleo", icon: "💼" },
 ];
 
 export const CategorySidebar = ({ onCategoryChange }: CategorySidebarProps) => {
   const [isCollapsed, setIsCollapsed] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState<string | null>('all');
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(
+    "all"
+  );
 
   const handleCategoryClick = (categoryId: string) => {
     const newCategory = categoryId === selectedCategory ? null : categoryId;
@@ -33,7 +35,7 @@ export const CategorySidebar = ({ onCategoryChange }: CategorySidebarProps) => {
   return (
     <div
       className={`relative flex h-screen flex-col border-r border-gray-100 bg-white/50 backdrop-blur-sm transition-all duration-300 ${
-        isCollapsed ? 'w-16' : 'w-64'
+        isCollapsed ? "w-16" : "w-64"
       }`}
     >
       <button
@@ -44,8 +46,12 @@ export const CategorySidebar = ({ onCategoryChange }: CategorySidebarProps) => {
       </button>
 
       <div className="p-4">
-        <h2 className={`text-sm font-medium text-gray-900 ${isCollapsed ? 'hidden' : 'block'}`}>
-         Categories
+        <h2
+          className={`text-sm font-medium text-gray-900 ${
+            isCollapsed ? "hidden" : "block"
+          }`}
+        >
+          Categories
         </h2>
       </div>
 
@@ -56,12 +62,12 @@ export const CategorySidebar = ({ onCategoryChange }: CategorySidebarProps) => {
             onClick={() => handleCategoryClick(category.id)}
             className={`category-item w-full ${
               selectedCategory === category.id
-                ? 'bg-gray-50 font-medium text-gray-900'
-                : ''
+                ? "bg-gray-50 font-medium text-gray-900"
+                : ""
             }`}
           >
             <span>{category.icon}</span>
-            <span className={isCollapsed ? 'hidden' : 'block'}>
+            <span className={isCollapsed ? "hidden" : "block"}>
               {category.name}
             </span>
           </button>

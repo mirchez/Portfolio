@@ -1,6 +1,5 @@
-
-import { Project } from '@/store/useProjectStore';
-import { ProjectCard } from './ProjectCard';
+import { Project } from "@/store/useProjectStore";
+import { ProjectCard } from "./ProjectCard";
 
 interface ProjectGridProps {
   projects: Project[];
