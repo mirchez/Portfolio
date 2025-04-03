@@ -8,6 +8,6 @@ import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
 
-const App = () => <div></div>;
+const App = () => <div>404</div>;
 
 export default App;
